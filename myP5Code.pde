@@ -5,10 +5,10 @@ setup = function() {
 var answer = 1;
 
 draw = function(){
-  background(100,100,100);
-  fill(0, 0, 0);
+  background(253, 253, 150);
+  fill(167, 240, 242);
   ellipse(200, 200, 375, 375);
-  fill(60, 0, 255);
+  fill(240,182,213);
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
