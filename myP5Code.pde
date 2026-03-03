@@ -43,13 +43,16 @@ draw = function(){
     text("so 🐬", 150, 229); 
   }
   
+  //random
   if (mouseY < 200 && mousePressed){ //strobe lighting
   stroke(0);
   fill(random(255), random(255), random(255));
-  rect(0,0,400,400);
+  rect(0,0,400,400);}
 }
 
-//random
+
+
+
 mouseClicked = function(){
   answer = round(random(1, 5));
 };
